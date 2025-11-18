@@ -48,13 +48,13 @@ export const Header = memo(() => {
 
   return (
     <header className="flex w-full items-start justify-between">
-      <img
+      {/* <img
         src="/images/logo.svg"
         alt="Tavus"
         className="relative h-6 sm:h-10"
-      />
+      /> */}
       <div className="flex items-center gap-2 sm:gap-4">
-        <div className="flex h-10 items-center rounded-xl border border-secondary/50 bg-secondary/10 px-1 backdrop-blur-sm sm:h-14 sm:px-2.5 ">
+        {/* <div className="flex h-10 items-center rounded-xl border border-secondary/50 bg-secondary/10 px-1 backdrop-blur-sm sm:h-14 sm:px-2.5 ">
           <div className="flex w-12 flex-col items-center border-r border-secondary/50">
             <span className="font-santa text-lg !leading-none sm:text-2xl">
               {timeLeft.days}
@@ -79,7 +79,7 @@ export const Header = memo(() => {
             </span>
             <span className="text-2xxs uppercase sm:text-xxs">Sec</span>
           </div>
-        </div>
+        </div> */}
         <Button
           variant="outline"
           size="icon"
