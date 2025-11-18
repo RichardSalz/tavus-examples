@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/szallasw1/telapo.eu
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    - cd $DEPLOYPATH
+    - /usr/local/bin/npm install
+    - /bin/touch $DEPLOYPATH/tmp/restart.txt
